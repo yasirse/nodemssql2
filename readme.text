@@ -1,0 +1,11 @@
+For mySql
+npm install express mysql  nodemon dotenv
+for MSSQL DB
+npm install express  mssql msnodesqlv8 nodemon dotenv
+
+json format to add user at http://localhost:8080/saveuser
+{
+  "name":"yasir4",
+  "email":"yasir4@gmail.com",
+  "password":"123456"
+}
