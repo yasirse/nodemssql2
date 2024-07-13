@@ -1,5 +1,7 @@
 // src/utils/otp.js
 const crypto = require('crypto');
+const mysql= require("mysql");
+require("dotenv").config(); 
 
 function generateOTP() {
     return new Promise((resolve, reject) => {

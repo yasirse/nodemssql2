@@ -5,7 +5,6 @@ const generateOTP = require('./otp');
 
 // Load environment variables from .env file
 dotenv.config();
-
 // Create transporter object using SMTP transport
 const transporter = nodemailer.createTransport({
     service: 'gmail',

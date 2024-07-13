@@ -3,7 +3,6 @@ const mysql= require("mysql");
 require("dotenv").config(); 
 
 const app=express();
-
 // enable json parsing
 app.use(express.json());
 // enable parsing of  form urlencoded data.
